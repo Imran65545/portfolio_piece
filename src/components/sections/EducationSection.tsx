@@ -42,13 +42,13 @@ const EducationSection: React.FC = () => {
           
           <ul className="education-details">
             <li>
-              <strong>Academic Focus:</strong> Comprehensive foundation in data-driven problem solving, database architecture, and business insights.
+              <strong>Academic Focus:</strong> Full-stack web development, AI/ML engineering, database systems, and software quality assurance.
             </li>
             <li>
-              <strong>Core Concepts:</strong> Data Cleaning, Exploratory Data Analysis (EDA), KPI Reporting, and Interactive Dashboard Creation.
+              <strong>Core Concepts:</strong> REST API Design, Database Architecture (MongoDB, SQL), Information Security, Business Intelligence, GIS, and ITIL 4/ITSM.
             </li>
             <li>
-              <strong>Technical Coursework & Tools:</strong> Python (Pandas, NumPy, Matplotlib, Seaborn), Advanced SQL, Excel, and Power BI.
+              <strong>Technical Coursework & Tools:</strong> JavaScript (React, Next.js, Node.js), Python, MongoDB, MySQL, Vercel, Git & GitHub.
             </li>
           </ul>
         </div>
