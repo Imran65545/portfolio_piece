@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
       }
     );
 
-    const sections = ['home', 'about', 'projects', 'skills', 'contact'];
+    const sections = ['home', 'about', 'projects', 'tech-stack', 'contact'];
     sections.forEach((section) => {
       const element = document.getElementById(section);
       if (element) observer.observe(element);
@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
         <li><a href="#home" className={activeSection === 'home' ? 'active' : ''}>HOME</a></li>
         <li><a href="#about" className={activeSection === 'about' ? 'active' : ''}>ABOUT</a></li>
         <li><a href="#projects" className={activeSection === 'projects' ? 'active' : ''}>PROJECTS</a></li>
-        <li><a href="#skills" className={activeSection === 'skills' ? 'active' : ''}>SKILLS</a></li>
+        <li><a href="#tech-stack" className={activeSection === 'tech-stack' ? 'active' : ''}>SKILLS</a></li>
         <li><a href="#contact" className={activeSection === 'contact' ? 'active' : ''}>CONTACT</a></li>
       </ul>
       <a href="#contact" className="btn-set-sail">
